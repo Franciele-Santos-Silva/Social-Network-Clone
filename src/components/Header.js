@@ -14,6 +14,7 @@ import {
     MagnifyingGlassIcon as SearchIcon,
     ShoppingCartIcon
 } from "@heroicons/react/24/outline"    
+import HeaderIcon from './HeaderIcon'
 
 function Header() {
   return (
@@ -52,6 +53,16 @@ function Header() {
         </div>
 
         {/* Central */}
+    <div>
+        <div>   
+            <HeaderIcon Icon={HomeIcon} />
+            <HeaderIcon Icon={FlagIcon} />
+            <HeaderIcon Icon={PlayIcon} />
+            <HeaderIcon Icon={ShoppingCartIcon} />
+            <HeaderIcon Icon={UserGroupIcon} />
+        </div>
+    </div>  
+
         {/* Direita */}
     </div>
   )
